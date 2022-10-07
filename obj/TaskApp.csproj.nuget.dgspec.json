@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carlos\\Desktop\\kali\\dotnet-Net6.0\\TaskApp\\TaskApp.csproj": {}
+    "C:\\Users\\Carlos\\Documents\\AAPOEscritorio\\pruebaGIT\\TaskApp\\TaskApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carlos\\Desktop\\kali\\dotnet-Net6.0\\TaskApp\\TaskApp.csproj": {
+    "C:\\Users\\Carlos\\Documents\\AAPOEscritorio\\pruebaGIT\\TaskApp\\TaskApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\kali\\dotnet-Net6.0\\TaskApp\\TaskApp.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\Documents\\AAPOEscritorio\\pruebaGIT\\TaskApp\\TaskApp.csproj",
         "projectName": "TaskApp",
-        "projectPath": "C:\\Users\\Carlos\\Desktop\\kali\\dotnet-Net6.0\\TaskApp\\TaskApp.csproj",
+        "projectPath": "C:\\Users\\Carlos\\Documents\\AAPOEscritorio\\pruebaGIT\\TaskApp\\TaskApp.csproj",
         "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos\\Desktop\\kali\\dotnet-Net6.0\\TaskApp\\obj\\",
+        "outputPath": "C:\\Users\\Carlos\\Documents\\AAPOEscritorio\\pruebaGIT\\TaskApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
