@@ -8,57 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TaskApp
 build_property.RootNamespace = TaskApp
-build_property.ProjectDir = C:\Users\Carlos\Documents\AAPOEscritorio\pruebaGIT\TaskApp\
+build_property.ProjectDir = c:\Users\Carlos\Documents\AAPOEscritorio\pruebaGIT\TaskApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Carlos\Documents\AAPOEscritorio\pruebaGIT\TaskApp
+build_property.MSBuildProjectDirectory = c:\Users\Carlos\Documents\AAPOEscritorio\pruebaGIT\TaskApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Home/Index.cshtml]
+[c:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Home/Privacy.cshtml]
+[c:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Shared/Error.cshtml]
+[c:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Home/privado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcml2YWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Task/Create.cshtml]
+[c:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Task/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Task/Delete.cshtml]
+[c:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Task/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Task/Details.cshtml]
+[c:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Task/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Task/Edit.cshtml]
+[c:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Task/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Task/Index.cshtml]
+[c:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Task/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/_ViewImports.cshtml]
+[c:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/_ViewStart.cshtml]
+[c:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Shared/_Layout.cshtml]
+[c:/Users/Carlos/Documents/AAPOEscritorio/pruebaGIT/TaskApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-opzc1xvhgz
