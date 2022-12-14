@@ -855,3 +855,4 @@ C:\Users\Carlos\Documents\AAPOEscritorio\pruebaGIT\TaskApp\obj\Debug\net6.0\refi
 C:\Users\Carlos\Documents\AAPOEscritorio\pruebaGIT\TaskApp\obj\Debug\net6.0\TaskApp.pdb
 C:\Users\Carlos\Documents\AAPOEscritorio\pruebaGIT\TaskApp\obj\Debug\net6.0\TaskApp.genruntimeconfig.cache
 C:\Users\Carlos\Documents\AAPOEscritorio\pruebaGIT\TaskApp\obj\Debug\net6.0\ref\TaskApp.dll
+C:\Users\Carlos\Documents\AAPOEscritorio\pruebaGIT\TaskApp\bin\Debug\net6.0\package.json

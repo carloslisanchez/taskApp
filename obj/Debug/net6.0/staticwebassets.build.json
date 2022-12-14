@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6qGJhzT8pyc/4WjkTEmbB8P5/uv1d4SxklnRtTKfj8U=",
+  "Hash": "VmlxlgRFbsbvnhSJZIW6YzDRvfAumle48Zp1ms+ESn4=",
   "Source": "TaskApp",
   "BasePath": "_content/TaskApp",
   "Mode": "Default",
@@ -168,6 +168,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\Carlos\\Documents\\AAPOEscritorio\\pruebaGIT\\TaskApp\\wwwroot\\js\\Task\\task.js",
+      "SourceId": "TaskApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Carlos\\Documents\\AAPOEscritorio\\pruebaGIT\\TaskApp\\wwwroot\\",
+      "BasePath": "_content/TaskApp",
+      "RelativePath": "js/Task/task.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Task\\task.js"
+    },
+    {
+      "Identity": "C:\\Users\\Carlos\\Documents\\AAPOEscritorio\\pruebaGIT\\TaskApp\\wwwroot\\js\\Task\\task.js.map",
+      "SourceId": "TaskApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Carlos\\Documents\\AAPOEscritorio\\pruebaGIT\\TaskApp\\wwwroot\\",
+      "BasePath": "_content/TaskApp",
+      "RelativePath": "js/Task/task.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Task\\task.js.map"
     },
     {
       "Identity": "C:\\Users\\Carlos\\Documents\\AAPOEscritorio\\pruebaGIT\\TaskApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",

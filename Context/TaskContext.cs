@@ -11,25 +11,12 @@ namespace Context.TaskContext
         :base(options)
         {}
         public DbSet<TaskModel> Tasks { get; set; }
-
-        public string DbPath {get;}
-
-        // public TaskContext(){
-        //     var folder = Environment.SpecialFolder.LocalApplicationData;
-        //     var path = Environment.GetFolderPath(folder);
-        //     Console.WriteLine($"===={path}");
-        //     DbPath = System.IO.Path.Join(path, "task.db");
-        // }
+        public DbSet<AppModel> App {get;set;}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite($"Data Source=task.db");
             //  optionsBuilder.UseSqlite("Name=ConnectionStrings:TaskDB");
         }
-
-        // protected override void OnModelCreating(ModelBuilder modelBuilder)
-        // {
-        //     modelBuilder.Entity<Tarea>().ToTable("Tasks");
-        // }
     }
 }
