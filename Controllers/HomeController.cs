@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using Context.TaskContext;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using TaskApp.Models;
 
 namespace TaskApp.Controllers;
@@ -18,7 +19,8 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        var dataApp =  _context.App.ToList();
+        return View(dataApp);
     }
 
     public IActionResult Privacy()
@@ -32,5 +34,10 @@ public class HomeController : Controller
         return View(
             new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier }
         );
+    }
+
+    public async Task<IActionResult> Tareas(int Id){
+        var dataTask = await _context.Tasks.Where(x=>x.IdApp ==Id).ToListAsync();
+        return View(dataTask);
     }
 }
