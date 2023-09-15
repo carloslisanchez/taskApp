@@ -7,6 +7,25 @@
 <h1 class="display-4">Welcome</h1>
 <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div> *@
+<div>
+    <form>
+        <div class="mb-3">
+            <label for="InputAppName" class="form-label">App Name</label>
+            <input type="text" class="form-control" id="InputAppName" aria-describedby="appName">
+            @* <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> *@
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="text" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+@* <button type="button" class="btn btn-outline-primary" onclick="AddApp();">Primary</button> *@
 <div class="container">
     <div class="row row-cols-3">
         @foreach (var item in Model)
@@ -17,30 +36,29 @@
                     <div class="card-body">
                         @* <h5 class="card-title">Primary card title</h5> *@
                         <p class="card-text">@item.Description</p>
-                         @* <a href="#" class="btn btn-primary">Button</a> *@
-                         <a asp-action="Tareas" asp-route-id="@item.ID" class="btn btn-primary">Tareas</a>
+                        @* <a href="#" class="btn btn-primary">Button</a> *@
+                        <a asp-action="Tareas" asp-route-id="@item.ID" class="btn btn-primary">Tareas</a>
                     </div>
                 </div>
             </div>
         }
     </div>
 </div>
-@* @for (int i = 0; i < 3; i++)
-{
-
-} *@
-<div id="ts-example">
-    <hr>
-    <br />
-    <button type="button" class="btn btn-primary btn-md" onclick="TSButton()">
-        Click Me
-    </button>
+@* <div id="ts-example">
+<hr>
+<br />
+<button type="button" class="btn btn-primary btn-md" onclick="TSButton()">
+Click Me
+</button>
 </div>
 
 <div id="ts-example">
-    <hr>
-    <br />
-    <button type="button" class="btn btn-primary btn-md" onclick="TSButtonConsulta()">
-        Click Me
-    </button>
-</div>
+<hr>
+<br />
+<button type="button" class="btn btn-primary btn-md" onclick="TSButtonConsulta()">
+Click Me
+</button>
+</div> *@
+@section Scripts{
+    <script src="~/js/Home/index.js"></script>
+}
