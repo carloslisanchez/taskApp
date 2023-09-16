@@ -8,26 +8,31 @@
 <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div> *@
 <div>
-    <form>
+    <form id="formApp">
         <div class="mb-3">
             <label for="InputAppName" class="form-label">App Name</label>
-            <input type="text" class="form-control" id="InputAppName" aria-describedby="appName">
+            <input type="text" name="name" class="form-control" id="InputAppName" aria-describedby="appName">
             @* <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> *@
         </div>
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="text" class="form-control" id="exampleInputPassword1">
+            <label for="inputDescription" class="form-label">Description</label>
+            <input type="text" name="Description" class="form-control" id="Description">
         </div>
-        <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
+        @* <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div> *@
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
 @* <button type="button" class="btn btn-outline-primary" onclick="AddApp();">Primary</button> *@
 <div class="container">
     <div class="row row-cols-3">
+        @if (Model.Count() == 0)
+        {
+            <div>No se encontraron datos</div>
+        }
+
         @foreach (var item in Model)
         {
             <div class="col">
@@ -43,6 +48,28 @@
             </div>
         }
     </div>
+</div>
+
+<!-- Vertically centered modal -->
+<div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            ...
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+    </div>
+</div>
+
+<!-- Vertically centered scrollable modal -->
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    ...
 </div>
 @* <div id="ts-example">
 <hr>

@@ -40,4 +40,16 @@ public class HomeController : Controller
         var dataTask = await _context.Tasks.Where(x=>x.IdApp ==Id).ToListAsync();
         return View(dataTask);
     }
+
+         public async Task<IActionResult> CreateAppregister([Bind("ID,name,Description")] AppModel appModel)
+        {
+            if (ModelState.IsValid)
+            {
+                appModel.Created_at = DateTime.Now;
+                _context.Add(appModel);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return Ok(appModel);
+        }
 }
